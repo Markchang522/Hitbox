@@ -1,0 +1,15 @@
+# KiCad 工作快取與暫存檔
+*.fp-info-cache
+*.bck
+*.kicad_prl
+
+# 備份檔案
+*-bak
+*-back
+*.bak
+*~
+
+# ERC / DRC 報告與圖層輸出檔
+*.rpt
+*.gbr
+*.drl
