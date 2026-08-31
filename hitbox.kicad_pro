@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "hitbox.step",
+      "step": "../../../../../Desktop/hitbox/hitbox.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -611,14 +611,56 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "參考"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,7 +703,7 @@
         "uuid": "91cf34d3-c54c-428c-9eb8-db473bab9a51"
       }
     ],
-    "used_designators": "Left1,U1-16,Y1,A1-2,L1,B1,Down1,R1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1",
+    "used_designators": "Left1,U1-16,Y1,A1-2,L1,B1,Down1,R1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1,#PWR1-2",
     "variants": []
   },
   "sheets": [
