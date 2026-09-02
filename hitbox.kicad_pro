@@ -703,7 +703,7 @@
         "uuid": "91cf34d3-c54c-428c-9eb8-db473bab9a51"
       }
     ],
-    "used_designators": "Left1,U1-16,Y1,A1-2,L1,B1,Down1,R1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1,#PWR1-2",
+    "used_designators": "Left1,U1-16,A1-2,Y1,L1,Down1,R1,B1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1,#PWR1-2",
     "variants": []
   },
   "sheets": [
