@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -526,7 +539,7 @@
       "netlist": "",
       "plot": "C:/Users/ediso/Desktop/hitbox_manufacture/",
       "specctra_dsn": "",
-      "step": "../../../../../Desktop/hitbox/hitbox.step",
+      "step": "3Dmodel/hitbox.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -703,7 +716,7 @@
         "uuid": "91cf34d3-c54c-428c-9eb8-db473bab9a51"
       }
     ],
-    "used_designators": "Left1,U1-16,A1-2,Y1,L1,Down1,R1,B1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1,#PWR1-2",
+    "used_designators": "Left1,U1-16,Y1,A1-2,L1,B1,Down1,R1,SW1-8,X1,Home1,LS1,Right1,RS1,Select(\\-)1,Start(+)1,Up1,ZL1,ZR1,#PWR1-2",
     "variants": []
   },
   "sheets": [
